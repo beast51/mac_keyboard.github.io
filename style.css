@@ -6,13 +6,9 @@
 } */
 @font-face {
 font-family: 'font849a1a0d336ce6335b8c7102667be33e';
-    
-    src:    url('https:@font-face { font-family: 'VAGRoundedStd-Light';  src: local('VAGRoundedStd-Light'), url('https://afonts.ru/files/woff/849a1a0d336ce6335b8c7102667be33e.woff') format('woff'); }
-
-
-
-
-/*````````````````````````````````` AFonts.ru - Каталог шрифтов ```````````````````````````````````````*/
+src: url('https:@font-face { font-family: 'VAGRoundedStd-Light';  
+    src: local('VAGRoundedStd-Light'), 
+    url('https://afonts.ru/files/woff/849a1a0d336ce6335b8c7102667be33e.woff') format('woff'); }
 
 
 #vagroundedstdlight { font-family:'VAGRoundedStd-Light'; }
