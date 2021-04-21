@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'VAG_rounded';
+    src: url('fonts/VAG-Rounded-Std-Light_47298.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.keyboard {
+    font-family: 'VAG_rounded';
+    color: #A9A9A9;
+    width: 1042px;
+    height: 399px;
+    border: 2px solid #999;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 7px;
+    padding-bottom: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C0C0C0;
+}
+
+.buttons {
+    float: left;
+    margin-bottom: 6px;
+}
+
+.row-1 {
+    width: 1032px;
+    height: 19px;
+    margin-right: 2px;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-bottom: 12px;
+
+}
+
+.row-2-6 {
+    width: 1032px;
+    height: 57px;
+    margin-top: 6px;
+    padding-left: 5px;
+}
+
+.key {
+    box-shadow: inset -2px -2px 1px #555;
+    background-color: #222;
+    padding-top: 4px;
+    height: 57px;
+    border: 1px solid #222;
+    width: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.key-1-row {
+    height: 19px;
+    width: 62.9px;
+    padding-bottom: 20px;
+
+
+
+}
+
+.option {
+    padding-top: 5px;
+}
+
+.fn {
+    padding-top: 30px;
+    padding-right: 25px;
+}
+
+.ctrl {
+    padding-top: 30px;
+}
+
+.delete {
+    width: 101px;
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+.tab {
+    width: 101px;
+    padding-right: 55px;
+    padding-top: 30px;
+}
+
+.capsLock {
+    width: 115.5px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.return {
+    font-size: 14px;
+}
+
+.Enter {
+    width: 115.5px;
+    padding-top: 5px;
+    padding-left: 55px;
+}
+
+.shift {
+    width: 151px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.shift-r {
+    width: 151px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.command {
+    width: 81px;
+    padding-top: 30px;
+}
+
+.space {
+    width: 340px;
+}
+
+.right {
+    margin-top: 28.5px;
+    height: 28.5px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.left {
+    margin-top: 28.5px;
+    height: 28.5px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.up,
+.down {
+    height: 28.5px;
+    float: left;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.arrow {
+    border: 0px;
+    padding-top: 0px;
+}
+
+.letter {
+    padding-top: 12px;
+    font-size: 22px;
+}
+
+.press {
+    box-shadow: none;
+    color: #fff;
+}

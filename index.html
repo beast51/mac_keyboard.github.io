@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit 20</title>
+</head>
+
+<body>
+    <div class="container">
+            <p><b>Task 11.</b></p>
+            <p> Проект. Дан input .i-11. Используя знания html и css нарисуйте клавиатуру (можно схематически).
+                Изображение должно содержать числа, символьные клавиши, пробел, enter, caps lock, shift, tab, alt. При
+                вводе текста в input в момент нажатия клавиши - затемняйте ее, в момент отпускания - возвращайте к
+                первоначальному состоянию. Аналогично при нажатии enter, space, alt, shift, ctrl. Затемнение реализуйте
+                через добавление класса CSS. Для удобства рекомендую каждой клавише добавить атрибут data с символом.
+                Если нажата клавиша caps lock - то присвоить ей затемнение, которое работает до последующего отжатия
+                клавиши.</p>
+            <div>
+
+                <input type="text" class="i-11">
+                <div class="out-11">
+                </div>
+                <br>
+
+                <div class="keyboard">
+                    <div class="buttons row-1">
+                        <div data="27" class="key key-1-row">esc</div>
+                        <div data="112" class="key key-1-row">F1</div>
+                        <div data="113" class="key key-1-row">F2</div>
+                        <div data="114" class="key key-1-row">F3</div>
+                        <div data="115" class="key key-1-row">F4</div>
+                        <div data="116" class="key key-1-row">F5</div>
+                        <div data="117" class="key key-1-row">F6</div>
+                        <div data="118" class="key key-1-row">F7</div>
+                        <div data="119" class="key key-1-row">F8</div>
+                        <div data="120" class="key key-1-row">F9</div>
+                        <div data="121" class="key key-1-row">F10</div>
+                        <div data="122" class="key key-1-row">F11</div>
+                        <div data="123" class="key key-1-row">F12</div>
+                        <div data="0" class="key key-1-row">pwr</div>
+                    </div>
+                    <div class="buttons row-2-6">
+                        <div data="192" class="key">~<br>`</div>
+                        <div data="49" class="key">!<br>1</div>
+                        <div data="50" class="key">@<br>2</div>
+                        <div data="51" class="key">#<br>3</div>
+                        <div data="52" class="key">$<br>4</div>
+                        <div data="53" class="key">%<br>5</div>
+                        <div data="54" class="key">^<br>6</div>
+                        <div data="55" class="key">&<br>7</div>
+                        <div data="56" class="key">*<br>8</div>
+                        <div data="57" class="key">(<br>9</div>
+                        <div data="48" class="key">)<br>0</div>
+                        <div data="189" class="key">_<br>-</div>
+                        <div data="187" class="key">+<br>=</div>
+                        <div data="8" class="key delete">delete</div>
+                    </div>
+                    <div class="buttons row-2-6">
+                        <div data="9" class="key tab">tab</div>
+                        <div data="81" class="key letter">Q</div>
+                        <div data="87" class="key letter">W</div>
+                        <div data="69" class="key letter">E</div>
+                        <div data="82" class="key letter">R</div>
+                        <div data="84" class="key letter">T</div>
+                        <div data="89" class="key letter">Y</div>
+                        <div data="85" class="key letter">U</div>
+                        <div data="73" class="key letter">I</div>
+                        <div data="79" class="key letter">O</div>
+                        <div data="80" class="key letter">P</div>
+                        <div data="219" class="key">{<br>[</div>
+                        <div data="221" class="key">}<br>]</div>
+                        <div data="220" class="key">|<br>\</div>
+                    </div>
+                    <div class="buttons row-2-6">
+                        <div data="20" class="key capsLock">caps lock</div>
+                        <div data="65" class="key letter">A</div>
+                        <div data="83" class="key letter">S</div>
+                        <div data="68" class="key letter">D</div>
+                        <div data="70" class="key letter">F</div>
+                        <div data="71" class="key letter">G</div>
+                        <div data="72" class="key letter">H</div>
+                        <div data="74" class="key letter">J</div>
+                        <div data="75" class="key letter">K</div>
+                        <div data="76" class="key letter">L</div>
+                        <div data="186" class="key">:<br>;</div>
+                        <div data="222" data-upcase='"' class="key">"<br>'</div>
+                        <div data="13" class="key Enter"><span class="return">enter</span><br>return
+                        </div>
+                    </div>
+
+                    <div class="buttons row-2-6">
+                        <div data="16" class="key shift">shift</div>
+                        <div data="90" class="key letter">Z</div>
+                        <div data="88" class="key letter">X</div>
+                        <div data="67" class="key letter">C</div>
+                        <div data="86" class="key letter">V</div>
+                        <div data="66" class="key letter">B</div>
+                        <div data="78" class="key letter">N</div>
+                        <div data="77" class="key letter">M</div>
+                        <div data="188" class="key">
+                            <<br>,
+                        </div>
+                        <div data="190" class="key">><br>.</div>
+                        <div data="191" class="key">?<br>/</div>
+                        <div data="16" class="key shift-r">shift</div>
+                    </div>
+                    <div class="buttons row-2-6">
+                        <div data="" class="key fn">fn</div>
+                        <div data="17" class="key ctrl">control</div>
+                        <div data="18" class="key option">alt<br>option</div>
+                        <div data="91" class="key command">command</div>
+                        <div data="32" class="key space"></div>
+                        <div data="93" class="key command">command</div>
+                        <div data="18" class="key option">alt<br>option</div>
+                        <div data="37" class="key left">&#9668</div>
+                        <div class="key arrow">
+                            <div data="38" id="ArrowUp" class="key up">&#9650</div>
+                            <div data="40" class="key down">&#9660</div>
+                        </div>
+                        <div data="39" class="key right">&#9658</div>
+                    </div>
+                </div>
+    </div>
+    <script src="unit_20.js"></script>
+</body>
+
+</html>
