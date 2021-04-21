@@ -1,18 +1,9 @@
-/* @font-face {
+@font-face {
     font-family: 'VAG_rounded';
     src: url('fonts/VAG-Rounded-Std-Light_47298.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-} */
-@font-face {
-font-family: 'font849a1a0d336ce6335b8c7102667be33e';
-src: url('https:@font-face { font-family: 'VAGRoundedStd-Light';  
-    src: local('VAGRoundedStd-Light'), 
-    url('https://afonts.ru/files/woff/849a1a0d336ce6335b8c7102667be33e.woff') format('woff'); }
-
-
-#vagroundedstdlight { font-family:'VAGRoundedStd-Light'; }
-.font849a1a0d336ce6335b8c7102667be33e { font-family: 'font849a1a0d336ce6335b8c7102667be33e'; }
+}
 
 .container {
     width: 100%;
